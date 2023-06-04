@@ -1,0 +1,162 @@
+body{
+    margin: 0px;
+    /* 此处字体设置影响到导航栏字体 */
+    font: 20px/1 "\u5b8b\u4f53", Tahoma, Geneva, sans-serif;
+    color: #333;
+    font-family: "Microsoft YaHei";
+    font-family: "SimSun";
+    background-color: #b5a789;
+    display: flex;
+    flex-direction:row ;
+}
+
+div.inner{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 页眉区设置 */
+header{
+    height: 96px;
+    background-color: #675c47;
+    margin: 10px 10px 0px 10px;
+    
+}
+
+header img#headerSlogan{
+    float: right;
+}
+
+/* 导航栏设置，背景色与首页一致 */
+div#nav{
+    height: 41px;
+    background-color: #b39858;
+    display: block;
+    margin: 10px 10px 0px 10px;
+    padding: 10 10 0 10;
+}
+
+/* 默认蓝色 */
+a:link {
+    color:            #b76666;
+    text-decoration:  none;
+    border-bottom:    thin dotted #b76666;
+}
+
+/* 默认紫色 */
+a:visited {
+    color:            #675c47;
+    text-decoration:  none;
+    border-bottom:    thin dotted #675c47;
+}
+
+/* 导航栏设置 */
+navbar ul {
+    margin:5px 10px 5px 10px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+navbar ul li {
+	display: inline;
+    padding-top: 2px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+}
+navbar ul li a:link, navbar ul li a:visited {
+	color: #954b4b;
+	border-bottom: none;
+	font-weight: bold;
+}
+navbar ul li.selected {
+	background-color: #c8b99c;
+}
+
+div#container_1{
+    height: 968px;
+}
+
+/* 容器1的inner设置 */
+div#container_1 .inner{
+    height: 968px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction:row ;
+}
+
+/* 对容器1的三个部分进行设置 */
+div#container_1 div.inner div#cont_1_1{
+    width: 200px;
+    height: 968px;
+    /* 设置左浮动 */
+    float: left;
+    /* 选择统一的背景色 */
+    background-color: #efe5d0;
+    /* 元素溢出时隐藏 */
+    overflow: hidden;
+    margin-left: auto;
+}
+div#container_1 div.inner div#cont_1_2{
+    width: 1070px;
+    height: 968px;
+        /* 设置左浮动，实际效果在中间 */
+    float: left;
+    /* 统一的背景色 */ 
+    background-color: #f1efe3;
+}
+div#container_1 div.inner div#cont_1_3{
+    width: 200px;
+    height: 968px;
+    /* 设置有浮动 */
+    float: right;
+    /* 统一的背景色 */
+    background-color: #efe5d0;
+    margin-right: auto;
+}
+
+p{
+    text-align: center;
+}
+/* 表格背景色设为白色 */
+table{
+    background-color:white;
+}
+/*表格的表头设置  */
+table th {
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: bold;
+    text-align:center;
+    width: 125px;
+}
+
+/* 普通单元格设置，固定统一大小 */
+table td{
+    width: 100px;
+    height: 33px;
+
+}
+
+/* 插入证件照设置 */
+table img{
+    width: 180px;
+    height: 200px;
+    text-align: center;
+}
+
+/* 页脚格式设置，各页面统一 */
+footer {
+    background-color: #b39858;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction:row ;
+}
+
+footer  .inner {
+    height: 48px;
+    /* 设置座右铭居中，字体中号 */
+    text-align:       center;
+    font-size: medium;
+}

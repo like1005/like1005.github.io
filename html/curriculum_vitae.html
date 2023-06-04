@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta Charset="UTF-8">
+    <meat name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="../css/cur.css">
+</head>
+
+<body>
+    <!-- 页眉区设置 -->
+    <header>
+        <!-- 左部填充 -->
+        <img id="headerLogo" src="../images/headerLogo.jpg" style="opacity: 0.8" alt="LiKe's Web pages">
+        <!-- 右部填充 -->
+        <img id="headerSlogan" src="../images/headerSlogan.png" alt="欢迎来到我的个人主页，一起来看看都有哪些内容吧">
+    </header>
+    <!--页眉区设置结束-  -->
+
+    <!-- 导航栏设置，包含五个页面及跳转 -->
+    <navbar>
+        <ul>
+            <li class="selected"><a href="../index.html">首页</a></li>
+            <li><a href="curriculum_vitae.html">个人简历</a></li>
+            <li><a href="growth_experience.html">成长经历</a></li>
+            <li><a href="life_silhoutette.html">生活剪影</a></li>
+            <li><a href="message_boards.html">留言板</a></li>
+        </ul>
+    </navbar>
+    <!-- 导航栏设置结束 -->
+
+    <div id="container_1">
+        <div class="inner">
+            <!-- 分为三块，中间放置简历 -->
+            <!-- 左侧留白 -->
+            <div id="cont_1_1">
+            </div>
+            <div id="cont_1_2">
+                <!-- 设置一个table，选择高宽 -->
+                <table width="780px" height="968px" cellpadding="5px" cellspacing="0" border="1" align="center">
+                    <tr align="center">
+                        <!-- 设置列数为8 -->
+                        <th colspan="8">基本信息</th>
+                    </tr>
+                    <!-- 第一部分个人信息 -->
+                    <tr>
+                        <td>姓名</td>
+                        <td>李可</td>
+                        <td>性别</td>
+                        <td>女</td>
+                        <td>出生年月</td>
+                        <td>2003/6/18</td>
+                        <td rowspan="3" colspan="2">
+                            <!-- 插入个人照片 -->
+                            <img src="../images/证件照.png" width="150px" height="200px">
+                        </td>
+                    </tr>
+                    <!-- 第二部分个人信息 -->
+                    <tr>
+                        <td>民族</td>
+                        <td>汉</td>
+                        <td>籍贯</td>
+                        <td>湖北黄冈</td>
+                        <td>政治面貌</td>
+                        <td>共青团员</td>
+                    </tr>
+                    <!-- 第三部分个人信息 -->
+                    <tr>
+                        <td>健康状况</td>
+                        <td>良好</td>
+                        <td>婚姻状况</td>
+                        <td>否</td>
+                        <td>现所在地</td>
+                        <td>武汉</td>
+                    </tr>
+                    <!-- 第四部分个人信息 -->
+                    <tr>
+                        <td>在读院校</td>
+                        <!-- 调整列数使表格美观 -->
+                        <td colspan="2">中南财经政法</br>
+                            大学</td>
+                        <td>专业</td>
+                        <td colspan="2">信息管理与信息系统</td>
+                        <td>学历</td>
+                        <td>本科</td>
+                    </tr>
+                    <!-- 第五部分个人信息 -->
+                    <tr>
+                        <td>手机号码</td>
+                        <!-- 调整列数使表格美观 -->
+                        <td colspan="2">13409743665</td>
+                        <td>邮箱</td>
+                        <td colspan="2">1532188538@qq.com</td>
+                        <td>毕业时间</td>
+                        <td>2025/6</td>
+                    </tr>
+                    <tr align="center">
+                        <!-- 设置列数为8，简要介绍教育背景 -->
+                        <th colspan="8">教育背景</th>
+                    </tr>
+                    <tr>
+                        <!-- 合并列，使页面美观 -->
+                        <td colspan="2">毕业院校</td>
+                        <td colspan="2">中南财经政法大学</td>
+                        <td colspan="2">专业</td>
+                        <td colspan="2">信息管理与信息系统</td>
+                    </tr>
+                    <tr>
+                        <!-- 合并列，使页面美观 -->
+                        <td colspan="2">起止时间</td>
+                        <td colspan="2">2021/9-2025/6</td>
+                        <td colspan="2">学历</td>
+                        <td colspan="3">本科</td>
+                    </tr>
+
+                    <tr align="center">
+                        <!-- 设置列数为8，对个人能力简要介绍-->
+                        <th colspan="8">能力介绍</th>
+                    </tr>
+                    <!-- 核心课程介绍及相应成绩 -->
+                    <tr>
+                        <th width="100" height="100" colspan="1" align="center"><b>核心课程</b></th>
+                        <td colspan="7">
+                            <div>程序设计（96）、信息科学概论（97）、离散数学（89）</div>
+                            <div>高等数学（89）、Java程序设计（92）、操作系统（89）</div>
+                            <div>算法分析与设计（85）、数据库系统（85）、计算机网络（83）</div>
+                        </td>
+                    </tr>
+                    <!--使用div分组，技能介绍  -->
+                    <tr>
+                        <th width="100" height="100" colspan="1" align="center"><b>技能</b></th>
+                        <td colspan="7">
+                            <div>语言技能:英语CET4</div>
+                            <div>专业技能:掌握C++、Python、Java等编程语言</div>
+                            <div>掌握Lingo、StarUml等工具，熟练Office、Access</div>
+                        </td>
+                    </tr>
+                    <!-- 使用div分组，荣誉介绍 -->
+                    <tr>
+                        <th width="100" height="100" colspan="1" align="center"><b>荣誉</b></th>
+                        <td colspan="7">
+                            <div>所持证书:英语四级证书，普通话二级甲等证书</div>
+                            <div>2021-2022国家励志奖学金、院级优秀学生干部</div>
+                            <div>2022-2023校级优秀共青团员、校级优秀志愿者</div>
+
+                            <div>工程学院年度表彰第十二届“工程之星”最佳团体</div>
+                            <div>第六届湖北省青年志愿公益项目服务大赛校级选拔赛二等奖、省级银奖</div>
+                            <div>第八届厚德杯十佳、特色项目</div>
+                        </td>
+                    </tr>
+                    <!-- div分组，自我评价 -->
+                    <tr>
+                        <th width="100" height="100" colspan="1" align="center"><b>自我评价</b></th>
+                        <td colspan="7">
+                            <div>待人真诚热情、为人随和、善于沟通、有良好的人际关系和很强的适应能力</div>
+                            <div>工作认真负责、踏实肯干、具有较强的团体协作精神和独立的工作能力有很强的责任心和工作干劲，不惧挑战</div>
+                            <div>有一定的亲和力及管理能力，思维灵活，反映快，接收能力强，字迹工整</div>
+                        </td>
+                    </tr>
+
+                </table>
+
+            </div>
+            <!-- 右侧留白 -->
+            <div id="cont_1_3">
+            </div>
+        </div>
+    </div>
+
+    <!-- 页脚设置，使用行内元素br显示座右铭 -->
+    <footer>
+        <div class="inner">
+            <br>
+            身如芥子，心怀须弥
+        </div>
+    </footer>
+    <!--页脚区结束  -->
+
+</body>
+
+</html>

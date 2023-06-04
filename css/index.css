@@ -1,0 +1,193 @@
+/* 主体元素格式设置 */
+body{
+    margin: 0px;
+    /* 此处字体设置影响到导航栏字体 */
+    font: 20px/1 "\u5b8b\u4f53", Tahoma, Geneva, sans-serif;
+    color: #333;
+    font-family: "Microsoft YaHei";
+    font-family: "SimSun";
+        /* 统一背景色 */
+    background-color: #b5a789;
+}
+
+div.inner{
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 页眉区设置 */
+header{
+    height: 96px;
+    width:1500px;
+    background-color: #675c47;
+    margin: 10px 10px 0px 10px;
+    
+}
+
+header img#headerSlogan{
+    float: right;
+}
+
+/* 导航栏设置，调整边距使居中,背景色各页面统一 */
+div#navbar{
+    width: 1500px;;
+    height: 41px;
+    background-color: #b39858;
+    display: block;
+    margin: 10px 10px 0px 10px;
+    padding: 10 10 0 10;
+}
+
+/* 默认蓝色· */
+a:link {
+    color:            #b76666;
+    text-decoration:  none;
+    border-bottom:    thin dotted #b76666;
+}
+
+/* 默认紫色 */
+a:visited {
+    color:            #675c47;
+    text-decoration:  none;
+    border-bottom:    thin dotted #675c47;
+}
+
+/* 导航栏格式设置 */
+navbar ul {
+    margin:5px 10px 5px 10px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+navbar ul li {
+	display: inline;
+    padding-top: 2px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+}
+navbar ul li a:link, navbar ul li a:visited {
+	color: #954b4b;
+	border-bottom: none;
+	font-weight: bold;
+}
+navbar ul li.selected {
+	background-color: #c8b99c;
+}
+
+/* 容器1设置，调整高宽及边距 */
+div#container_1{
+    width:1500px;
+    height: 450px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+/* inner盒子 */
+div#container_1 .inner{
+    height: 450px;
+    width:1500px;
+    background-color: #efe5d0;
+}
+
+/* 根据页面宽度及预期效果设置宽高等 */
+div#container_1 div.inner div#cont_1_1{
+    width: 525px;
+    height: 420px;
+    float: left; 
+    /* 设置相同背景色 */
+    background-color: #e8e0cd;
+    /* 图片填充，不重复 */
+    background: url(../images/1.jpg) no-repeat;
+    border-top: 4px solid #85754d;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+/* 实现两部分的对齐 */
+div#container_1 div.inner div#cont_1_2{
+    width: 525px;
+    height: 420px;
+    float: right;
+    background-color: #e8e0cd;
+    /* 设置上边框 */
+    border-top: 4px solid #b89a53;
+    margin-right: 200px;
+    margin-top: 25px;
+}
+/* 长引用文本居中，设置字号 */
+blockquote{
+    text-align: center;
+    font-size:24px;
+}
+/* 容器2设置 */
+div#container_2{
+    height: 493px;
+    width:1500px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* inner盒子设置 */
+div#container_2 .inner{
+    height: 493px;
+    width:1500px;
+    background-color: #efe5d0;
+}
+/* 三部分设置相同的背景色，统一色调 */
+div#container_2 div.inner div#cont_2_1{
+    width: 335px;
+    height: 356px;
+    float: left;
+    background-color: #f1efe3;
+    /*元素溢出时不显示  */
+    overflow: hidden;
+    margin-top: 70px;
+    margin-left: 200px;
+    /* 使居中 */
+    text-align: center;
+}
+div#container_2 div.inner div#cont_2_2{
+    width: 400px;
+    height: 356px;
+    float: left;
+    /* 相同背景色 */
+    background-color: #f1efe3;
+    margin-top: 70px;
+    margin-left: 15px;
+    margin-right: 15px;
+    /* 调整居中 */
+    text-align: center;
+}
+div#container_2 div.inner div#cont_2_3{
+    width: 335px;
+    height: 356px;
+    float: right;
+    /* 相同背景色 */
+    background-color: #f1efe3;
+    margin-top: 70px;
+    margin-right: 200px;
+    /* 调整居中 */
+    text-align: center;
+}
+
+/* 调整使文字居中，更美观 */
+p{
+    text-align: center;
+}
+
+/* 页脚格式设置，调整边距等，，各页面统一 */
+footer {
+    background-color: #b39858;
+    width:1500px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer  .inner {
+    height: 48px;
+    /* 设置座右铭居中，字体中号 */
+    text-align:       center;
+    font-size: medium;
+    width:1500px;
+}

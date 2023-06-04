@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+    /* 此处字体设置影响到导航栏字体 */
+    font: 20px/1 "\u5b8b\u4f53", Tahoma, Geneva, sans-serif;
+    color: #333;
+    font-family: "Microsoft YaHei";
+    font-family: "SimSun";
+    background-color: #b5a789;
+}
+
+div.inner{
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 页眉区设置 */
+header{
+    height: 96px;
+    width:1500px;
+    background-color: #675c47;
+    margin: 10px 10px 0px 10px;
+    
+}
+
+header img#headerSlogan{
+    float: right;
+}
+/* 导航栏设置，各页面统一 */
+div#nav{
+    width: 1500px;;
+    height: 41px;
+    background-color: #b39858;
+    display: block;
+    margin: 10px 10px 0px 10px;
+    padding: 10 10 0 10;
+}
+
+/* 默认蓝色 */
+a:link {
+    color:            #b76666;
+    text-decoration:  none;
+    border-bottom:    thin dotted #b76666; 
+}
+
+/* 默认紫色 */
+a:visited {
+    color:            #675c47;
+    text-decoration:  none;
+    border-bottom:    thin dotted #675c47;
+}
+
+/* 导航栏设置，各页面统一 */
+navbar ul {
+    margin:5px 10px 5px 10px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+
+navbar ul li {
+	display: inline;
+    padding-top: 2px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+}
+
+navbar ul li a:link, navbar ul li a:visited {
+	color: #954b4b;
+	border-bottom: none;
+	font-weight: bold;
+}
+
+navbar ul li.selected {
+	background-color: #c8b99c;
+}
+
+/* 容器1设置 */
+div#container_1{
+    width:1500px;
+    height: 1600px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px 300px;
+    grid-gap: 10px;
+}
+
+
+li {
+    list-style: none;
+    display: inline-block;
+    /*每层四张图片排列*/
+    text-align: center;
+    /*内容居中*/
+    overflow: hidden;
+    /*超出隐藏*/
+}
+
+/* 调整使边距图片居中放置 */
+div#container_1 div.inner div#cont_1_1 ul{
+    padding-left: 200px;
+    position: absolute;
+}
+
+/* 页脚格式设置，各页面统一 */
+footer {
+    background-color: #b39858;
+    width:1500px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer  .inner {
+    height: 48px;
+    /* 设置座右铭居中，字体中号 */
+    text-align:       center;
+    font-size: medium;
+    width:1500px;
+}

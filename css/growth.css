@@ -1,0 +1,135 @@
+body{
+    margin: 0px;
+    /* 此处字体设置影响到导航栏字体 */
+    font: 20px/1 "\u5b8b\u4f53", Tahoma, Geneva, sans-serif;
+    color: #333;
+    font-family: "Microsoft YaHei";
+    font-family: "SimSun";
+    background-color: #b5a789;
+}
+
+div.inner{
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 页眉区设置 */
+header{
+    height: 96px;
+    width:1500px;
+    background-color: #675c47;
+    margin: 10px 10px 0px 10px;
+    
+}
+
+header img#headerSlogan{
+    float: right;
+}
+
+/* 导航栏设置，各页面统一 */
+div#nav{
+    width: 1500px;;
+    height: 41px;
+    background-color: #b39858;
+    display: block;
+    margin: 10px 10px 0px 10px;
+    padding: 10 10 0 10;
+}
+
+/* 默认蓝色 */
+a:link {
+    color:            #b76666;
+    text-decoration:  none;
+    border-bottom:    thin dotted #b76666;
+}
+
+/* 默认紫色s */
+a:visited {
+    color:            #675c47;
+    text-decoration:  none;
+    border-bottom:    thin dotted #675c47;
+  }
+
+navbar ul {
+    margin:5px 10px 5px 10px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+navbar ul li {
+	display: inline;
+    padding-top: 2px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+}
+
+navbar ul li a:link, navbar ul li a:visited {
+	color: #954b4b;
+	border-bottom: none;
+	font-weight: bold;
+}
+navbar ul li.selected {
+	background-color: #c8b99c;
+}
+
+
+/* 容器1设置，调整高宽及边距 */
+div#container_1{
+    width:1500px;
+    height: 1200px;
+}
+
+/* 容器1设置 */
+div#container_1 .inner{
+    height:1200px;
+    width:1500px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* 调试后选择字号为l6px */
+    font-size:16px;
+}
+
+/* 学习经历模块设置 */
+div#container_1 div.inner div#cont_1_1{
+    width: 1500px;
+    height: 550px;
+    background-color: #efe5d0;
+    overflow: hidden;
+}
+
+/*学生干部经验设置  */
+div#container_1 div.inner div#cont_1_2{
+    width: 1500px;
+    height: 382px;
+    /* 此处设置不同的背景色以区分 */
+    background-color: #f1efe3;
+}
+
+/* 竞赛、证书部分设置 */
+div#container_1 div.inner div#cont_1_3{
+    width: 1500px;
+    height: 274px;
+    background-color: #efe5d0;
+}
+
+/* 为标题设置左边距，使页面更美观 */
+h1{
+  margin-left: 5px;
+}
+
+/* 页脚格式设置，各页面统一 */
+footer {
+    background-color: #b39858;
+    width:1500px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer  .inner {
+    height: 48px;
+    /* 设置座右铭居中，字体中号 */
+    text-align:       center;
+    font-size: medium;
+    width:1500px;
+}

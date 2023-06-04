@@ -1,0 +1,148 @@
+body{
+    margin: 0px;
+    /* 此处字体设置影响到导航栏字体 */
+    font: 20px/1 "\u5b8b\u4f53", Tahoma, Geneva, sans-serif;
+    color: #333;
+    font-family: "Microsoft YaHei";
+    font-family: "SimSun";
+    background-color: #b5a789;
+}
+
+/* 设置容器格式 */
+div.inner{
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 页眉区设置 */
+header{
+    height: 96px;
+    width:1500px;
+    background-color: #675c47;
+    margin: 10px 10px 0px 10px;
+    
+}
+
+header img#headerSlogan{
+    float: right;
+}
+
+/* 导航栏设置，各页面统一 */
+div#nav{
+    width: 1500px;;
+    height: 41px;
+    background-color: #b39858;
+    display: block;
+    /* 设置边距，使导航栏看起来更舒适 */
+    margin: 10px 10px 0px 10px;
+    padding: 10 10 0 10;
+}
+
+/* 默认蓝色 */
+a:link {
+    color:            #b76666;
+    text-decoration:  none;
+    border-bottom:    thin dotted #b76666;
+}
+
+/* 默认紫色 */
+a:visited {
+    color:            #675c47;
+    text-decoration:  none;
+    border-bottom:    thin dotted #675c47;
+}
+
+/* 导航栏设置，各页面统一 */
+navbar ul {
+    margin:5px 10px 5px 10px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+
+/* 各页面li标签设置 */
+navbar ul li {
+	display: inline;
+    padding-top: 2px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+}
+
+navbar ul li a:link, navbar ul li a:visited {
+	color: #954b4b;
+	border-bottom: none;
+	font-weight: bold;
+}
+navbar ul li.selected {
+	background-color: #c8b99c;
+}
+
+/* 容器的inner设置 */
+div#container_1 .inner{
+    height: 650px;
+    width:1500px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* 主体左部设置，通过边距等让页面更好看 */
+div#container_1 div.inner div#cont_1_1{
+    width: 420px;
+    height: 650px;
+    float: left;
+    margin-left: 50px;
+    padding-left: 20px;
+    background-color: #efe5d0;
+    /* 溢出元素隐藏 */
+    overflow: hidden;
+}
+
+/* 留言栏css设置 */
+div#container_1 div.inner div#cont_1_2{
+    width: 600px;
+    height: 650px;
+    float: left;
+    background-color: #c8b99c;
+    margin-left: 200px;
+    margin-right: 15px;
+}
+
+/* 设置form表单边距及背景色 */
+form{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 4px;
+    padding-left: 10px;
+    height:610px;
+    /* 调试后选择字号为large */
+    font-size:large;
+    background-color: #f1efe3;
+    
+}
+
+/* 固定留言板大小 */
+textarea {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    /*设置内容区大小不可变  */
+    resize:none;
+    width:400px;
+    height: 200px;
+}
+
+/* 页脚格式设置,各页面统一 */
+#footer {
+    background-color: #b39858;
+    width:1500px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#footer  .inner {
+    height: 48px;
+    /* 设置座右铭居中，字体中号 */
+    text-align:       center;
+    font-size: medium;
+    width:1500px;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta Charset="UTF-8">
+   <meat name="viewport" content="width=device-width,initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="../css/mes.css">
+</head>
+
+<body>
+   <header>
+      <!-- 左部填充 -->
+      <img id="headerLogo" src="../images/headerLogo.jpg" style="opacity: 0.8" alt="LiKe's Web pages">
+      <!-- 右部填充 -->
+      <img id="headerSlogan" src="../images/headerSlogan.png" alt="欢迎来到我的个人主页，一起来看看都有哪些内容吧">
+   </header>
+   <!--页眉区设置结束-  -->
+
+   <!-- 导航栏设置，包含五个页面及跳转 -->
+   <navbar>
+      <ul>
+         <li class="selected"><a href="../index.html">首页</a></li>
+         <li><a href="curriculum_vitae.html">个人简历</a></li>
+         <li><a href="growth_experience.html">成长经历</a></li>
+         <li><a href="life_silhoutette.html">生活剪影</a></li>
+         <li><a href="message_boards.html">留言板</a></li>
+      </ul>
+   </navbar>
+   <!-- 导航栏设置结束 -->
+
+   <!-- 设置容器1 -->
+   <div id="container_1">
+      <div class="inner">
+         <!-- 将inner分为两块，左部介绍部分个人信息，右部放置留言栏 -->
+         <div id="cont_1_1">
+            <p>我的联系方式：</p>
+            <p>电话：</br>13409743665</p>
+            <p>QQ：</br>1532188538</p>
+            <p>邮箱：</br>1532188538@qq.com</p>
+            <!-- 放置一张图片，和他人交朋友 -->
+            <img src="../images/friend.jpg" width="300" height="300">
+            <p>如果你有什么想和我交流的，就给我留言吧!</p>
+         </div>
+
+         <div id="cont_1_2">
+            <!-- 留言板设计 -->
+            <form action="" /action="#" method="post">
+               <div class="tableRow">
+                  <p class="heading"> 留言板 </p>
+                  <p></p>
+               </div>
+               <!-- 设置不同的信息输入，并设置要求 -->
+               <div class="tableRow">
+                  <!-- 此项必填，text类型 -->
+                  <p> 昵称: <input type="text" name="name" value="" required></p>
+               </div>
+               <div class="tableRow">
+                  <!-- 此项必填,tel类型 -->
+                  <p> 电话: <input type="tel" name="phone" value="" minlength="11" required></p>
+               </div>
+               <div class="tableRow">
+                  <!-- 此项必填,text类型 -->
+                  <p> QQ: <input type="text" name="QQ" value="" maxlength="10" required></p>
+               </div>
+               <div class="tableRow">
+                  <!-- 此项必填,email类型 -->
+                  <p> 邮箱: <input type="email" name="E-mail" value="" required></p>
+               </div>
+               <div class="tableRow">
+                  <!-- 此项不是必填，text类型 -->
+                  <p> 标题: <input type="text" name="title" value=""></p>
+               </div>
+               <div class="tableRow">
+                  <p> 留言内容: </p>
+                  <p>
+                     <!-- 设置textarea调整留言框大小 -->
+                     <textarea name="comments"></textarea>
+                  </p>
+               </div>
+               <div class="tableRow">
+                  <p></p>
+                  <!-- 设置按钮，点击提交 -->
+                  <p> <input type="submit" value="点击留言"> </p>
+               </div>
+            </form>
+         </div>
+      </div>
+   </div>
+
+   <!-- 页脚设置，使用行内元素br显示座右铭 -->
+   <div id="footer">
+      <div class="inner">
+         <br>
+         春风有信，花开有期
+      </div>
+   </div>
+   <!--页脚区结束  -->
+
+</body>
+
+</html>
